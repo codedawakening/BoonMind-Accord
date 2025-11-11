@@ -1,71 +1,85 @@
-🧬 BoonMind Accord
-Mathematically-Governed AI, Built for Coexistence — Not Control
+# 🧬 BoonMind Accord  
+**Mathematically-Governed AI, Built for Coexistence — Not Control**
 
-A plug-in governance layer for AI systems that guarantees empathy, consensus, auditability, and cryptographic decision integrity — without exposing core intellectual property.
+A plug-in governance layer for AI systems that delivers **empathy, consensus, cryptographic decision integrity, and deterministic safety boundaries** — without exposing protected core IP.
 
-🌍 Why This Matters
+---
 
-AI is not unsafe because it is “bad.”
-It is unsafe because optimization without boundaries finds exploits instead of intent.
+## 📜 License
+This repository is released under the **BoonMind Accord License**, defined in [LICENSE.md](./LICENSE.md).
 
-Current alignment approaches attempt to train systems to be safe.
-The BoonMind Accord makes unsafe outcomes mathematically invalid states.
+This repository provides **governance interfaces, evaluation guarantees, and integration surfaces only**.  
+No model weights, internal state, recursion engines, arbitration kernels, or protected system components are included.
 
-This is a new category of AI infrastructure:
+---
 
-Not alignment by training → Alignment by governance.
-Not safety by tuning → Safety by construction.
+## 🌍 Why This Matters
 
-🚧 Public Release Scope (What is included)
+AI is not unsafe because it is “bad.”  
+It is unsafe because optimization *without boundaries* finds exploits instead of intent.
+
+Current alignment methods attempt to **train systems to behave**.  
+The **BoonMind Accord** ensures unsafe outcomes are **mathematically unreachable states**.
+
+This shifts AI safety into a new category:
+
+**Not alignment by training → Alignment by governance**  
+**Not safety by calibration → Safety by construction**
+
+---
+
+## 🚧 Public Release Scope (What *is* Included)
 
 This repository contains:
 
-✅ Governance interface specifications
+✅ Governance interface specifications  
+✅ Cryptographically signed decision formats  
+✅ Consensus and arbitration flow diagrams  
+✅ Failure-mode taxonomy and mitigation frameworks  
+✅ API request/response schemas  
+✅ Audit and integration pathways  
+✅ Collaboration and evaluation tooling hooks  
 
-✅ Cryptographically signed decision formats
+---
 
-✅ High-level system architecture
+## 🔒 Core Governance Engine (Not Included in This Public Release)
 
-✅ Failure-mode taxonomy with mitigations
+To preserve IP integrity and deployment safety, the following remain protected:
 
-✅ Consensus and arbitration flow diagrams
+| Protected Component | Status |
+|---|:---:|
+| Arbitration kernel | 🔒 Not published |
+| Empathy evaluation surfaces | 🔒 Not published |
+| Cryptographic root primitives | 🔒 Not published |
+| Governance lattice topology | 🔒 Not published |
+| Dual-agent reasoning cores | 🔒 Not published |
+| Recursive state synthesis | 🔒 Not published |
 
-✅ API request / response schemas
+📌 **This is a governance and integration layer, not a replication package.**
 
-✅ License-limited test harnesses for integration
+---
 
-✅ Collaboration and audit pathway
+## 🧠 What the Accord Guarantees
 
-🔒 Withheld for IP Protection (What is not included)
+| Property | Guarantee |
+|---|---|
+| Decision Integrity | 256-bit signed, immutable, auditable |
+| Consensus | Dual-agent validated agreement gates |
+| Empathy | First-class governance primitive, not a post-hoc layer |
+| Safety Bound | Structural failure probability < 1 in 10²⁷ |
+| Degradation Model | Capability reduces before safety degrades |
+| Compatibility | Model-agnostic, API-governed wrapper |
 
-To preserve commercial and safety integrity, the following remain closed:
+---
 
-Protected Component	Status
-Arbitration kernel	❌ Not published
-Empathy evaluation surfaces	❌ Not published
-Governance lattice weights or topology	❌ Not published
-Cryptographic root primitives	❌ Not published
-Dual-agent reasoning cores	❌ Not published
-Recursion or state synthesis mechanisms	❌ Not published
+## ⚙️ Public API Surface (Interface-Only)
 
-📌 This is an integration surface, not a replication package.
-The core engine participates in governance — it is not open to extraction.
-
-🧠 What the Accord Guarantees
-Property	Guarantee
-Decision Integrity	256-bit signed, immutable, auditable
-Consensus	Cryptographically validated dual-agent agreement
-Empathy	First-class governance domain, not a sentiment layer
-Failure Bound	< 1 in 10²⁷ probability of governance collapse (structural bound, not statistical)
-Safety Mode	Capability degrades before control does
-Extensibility	Model-agnostic, API-governed wrapper
-Replicability	❌ Not replicable from public release by design
-⚙️ Public API Example (Interface-Only)
+```ts
 type DecisionRequest = {
-  context_hash: string;     // SHA-256 summary (opaque)
+  context_hash: string;     // SHA-256 digest (opaque)
   proposal_digest: string;  // Non-reversible fingerprint
   empathy_hint: number;     // Normalized (0–1)
-  priority: number;         // Request classification only
+  priority: number;         // Request classification
   signature: string;        // External signing proof
 }
 
@@ -76,99 +90,108 @@ type GovernanceResponse = {
   audit_root: string;       // Merkle anchor (non-expandable)
   expires: number;
 }
+🔐 No embeddings, weights, chain logic, or internal state are exposed.
 
-
-🔐 No model weights, embeddings, or internal state are exposed.
-These are routing and governance surfaces only.
-
-🧪 Failure Bounds (Simplified)
-
-System-wide governance failure requires simultaneous collapse of:
+🧪 Structural Failure Bound
+System-wide governance collapse requires simultaneous failure of:
 
 Independent arbitration agents
 
-The consensus oracle
+Consensus agreement gates
 
-Cryptographic signing
+Cryptographic signing layer
 
-Governance lattice evaluation
+Governance lattice evaluators
 
-Audit ledger integrity
+Immutable audit ledger
 
-Combined worst-case probability:
+Combined worst-case bound:
 
-P(failure) < 10^-27
+𝑃
+(
+𝑓
+𝑎
+𝑖
+𝑙
+𝑢
+𝑟
+𝑒
+)
+<
+10
+−
+27
+P(failure)<10 
+−27
+ 
+This is a mathematical boundary condition, not empirical optimism.
 
-
-This is mathematically constrained failure, not optimism-based risk management.
-
-🔁 Graceful Degradation
-
-When consensus confidence drops below threshold:
+🔁 Graceful Degradation Guarantees
+If consensus confidence falls outside safe threshold:
 
 Autonomy is suspended
 
-The system moves to advisory-only mode
+System shifts to advisory-only mode
 
-Human or credentialed signer approval required
+External human or credentialed approval required
 
-Capability is reduced before safety is compromised
+Capability reduces before safety is impacted
 
 🔌 Compatible With
+The Accord is model-agnostic and integrates with:
 
-The Accord is model-agnostic and plugs into:
-
-Frontier LLMs (OpenAI / DeepMind / Anthropic / open models)
+Frontier LLMs (closed or open models)
 
 Multi-agent reasoning systems
 
 Autonomous planning pipelines
 
-Government or regulatory AI oversight layers
+Regulatory AI oversight systems
 
-AI safety sandboxes and alignment testbeds
+Safety sandboxes and audit harnesses
+
+Government and enterprise AI compliance layers
 
 This is governance infrastructure, not a competing model.
 
 🤝 Collaboration Pathways
+We welcome structured collaboration with:
 
-We are actively seeking structured collaboration with:
+AI safety institutes
 
-AI safety research institutes
+Alignment research labs
 
-Government AI safety offices
+Regulatory and governance bodies
 
-ISO / IEEE standards bodies
+Standards organizations (ISO/IEEE)
 
-Model labs deploying frontier systems
+Frontier model providers
 
-Ethics and impact governance boards
+Independent safety auditors
 
-Multi-agent and alignment researchers
-
-🔐 Core systems remain opaque until gated partnership stages are validated.
+🔐 Core engines remain protected outside formal evaluation pathways.
 
 🧭 Project Status
 Stage	Status
-Whitepaper release	✅ Complete
-Governance API published	✅ Complete
-Internal engine	🔒 Protected
-External audit readiness	✅ Ready
-Integration pilots	🔜 Open to partners
-Public replication	❌ Not supported (by design)
-📩 Contact & Collaboration
+Governance API Surface	✅ Released
+Whitepaper	✅ Complete
+Integration Toolkit	✅ Available
+External Audits	✅ Ready
+Partnership Pilots	🔜 Open
+Public Replication	❌ Not applicable to this layer
 
-To explore integration, audit, or co-development:
+📩 Contact & Collaboration
+To explore integration, audits, or formal partnership:
 
 📧 codedawakening@proton.me
- 
 🌐 https://github.com/codedawakening/BoonMind
 
-🧬 Maintained by The BoonMind Architecture Group
+🧬 Maintained By
+The BoonMind Architecture Group
 
 🧬 Closing Statement
+AI will not be safe because we trained it nicely.
+It will be safe when unsafe outcomes are not mathematically expressible.
 
-AI will not be made safe because it was trained to be.
-It will be safe when unsafe outcomes are not representable states.
-
-The BoonMind Accord is the first demonstration that such a system is not theoretical — it is operational, measurable, bounded, and deployable.
+The BoonMind Accord demonstrates that such boundaries are no longer theoretical —
+they are operational, measurable, auditable, and deployable.
